@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sourav portfolio😎</title>
+    <style>
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box; 
+        }
+      html{
+      scroll-behavior:smooth;
+      }
+      body{
+      font-family:arial,sans-serif;
+      background:#f5f7fa;
+      }
+      
+      nav{
+      background:#111827;
+      padding:18px;
+      text-align:center;
+      position:sticky;
+      top:0;
+      z-index:1000;
+      display:flex;
+      justify-content:center;
+      }
+      
+      nav a{
+      color:white;
+      text-decoration:none;
+      margin:15px;
+      font-size:17px;
+      font-weight:bold;
+      tranisition: 0.3s;
+      button:hover;
+      background:#1d4ed8;
+      tranform-scale:(1.50);
+      transition:03s;
+      cursor:pointer;
+      }
+      nav:a hover{
+      color:#2563eb;
+      }
+      .hero{
+      text-align:center;
+      padding:60px 20px;
+      }
+      .hero button{
+      display:block;
+      margin:15px auto;
+      }
+      .profile{
+      width:180px;
+      height:180px;
+      border-redius:50%;
+      object-fit:cover;
+      margin-bottom:20px;
+      }
+      .hero h1{
+      font-size:48px;
+      color:#2563eb;
+      margin-bottom:15px;
+      }
+      
+      .hero h2{
+      font-size:36px;
+      color:#444;
+      margin-top:10px;
+      margin-bottom:15px;
+      }
+      
+      .hero p{
+      font-size:22px;
+      color:#555;
+      margin:20px 0;
+      margin-bottom:30px;
+      }
+      
+      
+      button{
+      background:#2563eb;
+      color:white;
+      border:none;
+      padding:15px 25px;
+      margin:10;
+      border-redius:10px;
+      font-size:18px;
+      display:inline-block;
+      }
+      .about{
+       background:white;
+       padding:60px 20px;
+       text-align:center;
+       }
+       .about h2{
+       font-size:40px;
+       color:#2563eb;
+       margin-bottom:20px;
+       }
+       .about p{
+       max-width:700px;
+       margin:auto;
+       font-size:20px;
+       line-height:1.8;
+       color:#555;
+       }
+       .skills{
+       text-align:center;
+       padding:60px 20px;
+       }
+      .skills h2{
+      color:#2563eb;
+      font-size:40px;
+      margin-bottom:20px;
+       }
+        .card{ 
+          background: white;
+          margin:15px;
+          padding:20px;
+          border-redius:10;
+         box-shadow:0 0 10px rgba(0,0,0,0.2);
+       font-size:22px;  
+       font-weight:bold;
+       }
+       .projects{
+       text-align:center;
+       padding:60px 20;
+       }
+       .projects h2{
+       color:#2563eb;
+       font-size:40px;
+       margin-bottom:20px;
+       }
+       .projects .card{
+       background:white;
+       margin:20px;
+       padding:20px;
+       border-redius:10px;
+       box-shadow:0 0 10px rgba(0,0,0,0.2);
+       }
+       .contact{
+       text-align:center;
+       padding:60px 20px;
+       background:#111827;
+       color:white;
+       }
+       .contact h2{
+       font-size:40px;
+       margin-bottom:20px;
+       }
+       .contact p{
+       font-size:20px;
+       margin:10px 0;
+       } 
+       .contact button{
+       background:#2563eb;
+       color: white;
+       padding:15px 30px;
+       border:none;
+       border-redius:10px;
+       font-size:18px;
+       }
+       .buttons{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-warp:warp;
+      }
+       nav a:hover{
+       color:yellow;
+       }
+       button:hover{
+       background:#1d4ed8;
+       transform:scale(1.05);
+       transition:0.3s;
+       cursor:pointer;
+       }
+  .card:hover{
+         transform:translateY(-10px);
+         transition:03s;
+         }
+         
+         html{
+         scroll-behavior:smooth;
+         }
+         *{
+         transition:03s;
+         }
+        footer{
+        background:#111827;
+        color:white;
+        text-align:center;
+        padding:20px;
+        font-size:16px;
+        }
+        .contact a{
+        text-decoration:none;
+        }
+        .contact button{
+        margin:10px;
+        }
+      .skills{
+      padding:50px 20px;
+      text-align:center;
+       background:#f4f4f4;
+       }
+      .skill h2{
+       font-size:35px;
+       margin-bottom:20px;
+       }
+       .skill-box{
+       background:white
+       margin:15px auto;
+       padding:15px;
+     width:80%;
+       max-width:300px;
+       border-redius:10px;
+       box-shadow:0 4px 10px rgba(0,0,0,0.2);
+       font-size:20px;
+       fony-weight:bold;
+       }
+       .card{
+              transition:0.3s;
+              cursor:pointer;
+             }
+              .card:hover{
+            transform:translateY(-10px); 
+            box-shadow:0 10px 20px rgba(0,0,0,0.3);
+            }
+           .profile-img{
+                 width:180px;
+                 height:180px;
+                 border-redius:50%;
+                 object-fit:cover;
+                 margin:25px auto;
+                 display:block;
+                 border:5px solid #2563eb;
+                 box-shadow:0 5px 15px rgba(0,0,0,0.3);
+                 }
+        @media (max-width: 768px){
+        nav{
+               display:flex;
+               flex-warp:warp;
+               justify-content:center;
+               gap:10px;
+               }
+           .hero h1{
+           font-size:45px;
+           }
+          .hero h2{
+          font-size:28px;
+          }
+          
+          .hero p{
+             font-size:18px;
+             }
+        .buttons{
+          display:flex;
+          flex-direction:column;
+          align-items:center;
+          gap:15px;
+          }
+     botton{
+         width:220px;
+         }
+     .card{
+          width:90%;
+          margin:15px auto;
+          }
+          }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="#HOME">HOME</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#PROJECTS">PROJECTS</a>
+        <a href="#CONTACT">CONTACT</a>
+        
+    </nav>
+    
+    <section id="home" class="hero">
+       <h1>HI I M SOURAV😎</h1> 
+      <img src="kkkkk.jpg" alt="sourav"
+      class="profile-img">
+       <h2>ASPIRING SOFTWARE ENGINEER</h2>
+       <p>I BUILD MODERN WEBSITE AND LEARN WEB DEVELOPMENT EVERY DAY. </p>
+       <div class="buttons">
+ <a href="#contact"><button>HIRE ME</button>
+       </a>
+          <a href="cv.pdf">
+       <button>DOWNLOAD CV</button>
+      </a>
+       </div>
+    </section>
+    
+    
+<section id="about" class="about">
+       <h2>about me</h2> 
+       <p>
+    I, am 'sourav from indea.I am cse student currently learning HTML,CSS and JAVA SCRIPT. My goal is to Become a software engineer at google and mordan websites.</p>
+    </section
+    <section class="skills">
+        <h2>MY SKILLS</h2>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JAVA SCRIPT</div>
+       <div class="card"> C PROGRAMMING</div>
+        </section>
+         <section id="skills" class="skills">
+     <section id="project" class="projects">
+            <h2>MY PROJECTS</h2>
+            <div class="card"> 
+            <h3>portfolio website</h3>
+            <p>my first professional portfolio website. </p>                 
+            </div>
+            <div class="card">
+  <h3>restaurant website using html,cse.</h3>  
+            </div>
+            </section>
+    <section id="contact" class="contact">
+        <h2>contact me</h2>
+        <p>Email sourav@gmail.com</p>
+        <p>phone 1235432178</p>
+        <button>Email me</button>
+        <br><br>
+        <a
+        href="https://github.com/your user name" target="_blank">
+        <button>github</button>
+        </a>
+        <a 
+        href="https://linkedin.com/in/your user name" target="_blank">
+        <button>linkedin</button>
+        </a>
+    </section>
+ <footer>
+    <p>©/2026 sourav. all right reserved </p>
+ </footer>   
+</body>
+</html>
